@@ -1,9 +1,5 @@
 import './js/libs/weapp-adapter'
 import './js/libs/symbol'
-import * as Three from './js/libs/three.min.r96.js'
+import Main from './js/src/main'
 
-console.log(Three)
-
-// import Main from './js/main'
-
-// new Main()
+Main.init()
